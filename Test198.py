@@ -1,9 +1,17 @@
 __author__ = 'zyt'
 
 class Solution:
-    # @param n, an integer
-    # @return an integer
-    def reverseBits(self, n):
-        return int(bin(n)[2:].zfill(32)[::-1],2)
+    # @param {integer[]} nums
+    # @return {integer}
+    def rob(self, nums):
+        value = [0] * len(nums)
+        for i in range(len(nums)):
+            if i == 0:
+                value[i] = nums[i]
+            elif i == 1:
+                value[i] = max(nums[i], value[i - 1])
+            else:
+                value[i] = max(value[i - 2] + nums[i], value[i - 1])
+        return value[-1] if nums else 0
 
-print(Solution().reverseBits(1))
+print(Solution().rob([]))

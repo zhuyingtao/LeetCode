@@ -18,3 +18,4 @@
 2015-07-23 00:53:33
     remove pop
     sum([int(i) ** 2 for i in str(n)])
+    curA, curB = headA, headB
