@@ -19,3 +19,9 @@
     remove pop
     sum([int(i) ** 2 for i in str(n)])
     curA, curB = headA, headB
+2015-07-25 13:47:11
+    s = re.sub(r'\W', '', s.lower())
+    s = list(filter(str.isalpha, s.lower()))
+2015-07-27 14:22:34
+    str = str.strip()
+
