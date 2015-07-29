@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string} s
     # @param {integer} numRows
@@ -19,5 +20,6 @@ class Solution:
                 line += s[i]
                 i += 1
         return "".join(list(map("".join, lines)))
+
 
 print(Solution().convert("ABCD", 2))

@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer[]} nums
     # @return {integer}

@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string} str
     # @return {integer}
@@ -22,5 +23,6 @@ class Solution:
             sum = sum * 10 + int(str[i])
             i += 1
         return sum * sign
+
 
 print(Solution().myAtoi('2147483648'))

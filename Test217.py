@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer[]} nums
     # @return {boolean}
@@ -13,6 +14,7 @@ class Solution:
         # return False
 
         # best solution
-        return len(nums)>len(set(nums))
+        return len(nums) > len(set(nums))
+
 
 print(Solution().containsDuplicate([1, 2, 3, 3]))
