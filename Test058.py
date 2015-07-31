@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string} s
     # @return {integer}
@@ -12,5 +13,6 @@ class Solution:
         #     index = -1
         # return len(s[index + 1:])
         return len(s.strip().split(' ')[-1])
+
 
 print(Solution().lengthOfLastWord("    "))

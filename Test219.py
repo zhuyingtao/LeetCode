@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer[]} nums
     # @param {integer} k
@@ -12,5 +13,6 @@ class Solution:
             else:
                 dic[nums[i]] = i
         return False
+
 
 print(Solution().containsNearbyDuplicate([-1, -1], 1))
