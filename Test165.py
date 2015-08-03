@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string} version1
     # @param {string} version2
@@ -17,5 +18,6 @@ class Solution:
             elif int(v1[i]) > int(v2[i]):
                 return 1
         return 0
+
 
 print(Solution().compareVersion("1", "1.1"))
