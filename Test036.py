@@ -12,9 +12,6 @@ class Solution:
                 group = [set(), set(), set()]
             for j in range(length):
                 if board[i][j] in row or board[j][i] in column or board[i][j] in group[j // 3]:
-                    print(row, column)
-                    print(group)
-                    print(i, j, board[i][j])
                     return False
                 else:
                     if board[i][j] != '.':

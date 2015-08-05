@@ -28,5 +28,6 @@
     head = temp = ListNode(0)
 2015-08-02 22:19:15
     return sorted(s)==sorted(t)
-
+2015-08-04 09:54:58
+    group = [set(), set(), set()] or group = [set()] * 3
 
