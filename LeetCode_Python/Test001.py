@@ -13,4 +13,6 @@ class Solution:
                 return [dict[diff] + 1, i + 1]
             else:
                 dict[nums[i]] = i
+
+
 print(Solution().twoSum([0, 4, 3, 0], 0))
