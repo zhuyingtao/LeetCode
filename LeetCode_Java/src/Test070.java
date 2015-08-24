@@ -16,5 +16,4 @@ public class Test070 {
             return step;
         }
     }
-
 }
