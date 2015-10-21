@@ -9,4 +9,5 @@ class Solution:
     def permute(self, nums):
         return list(permutations(nums))
 
-print(Solution().permute([1,2,3]))
+
+print(Solution().permute([1, 2, 3]))

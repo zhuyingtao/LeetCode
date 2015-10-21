@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer[]} nums
     # @return {integer}
@@ -27,5 +28,6 @@ class Solution:
             else:
                 count -= 1
         return major
+
 
 print(Solution().majorityElement([1, 2, 3, 4, 3, 3, 3]))  # i > n/2

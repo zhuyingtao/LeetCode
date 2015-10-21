@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string[]} strs
     # @return {string}
@@ -13,5 +14,6 @@ class Solution:
                     return prefix
             prefix += stand[i]
         return prefix
+
 
 print(Solution().longestCommonPrefix(['abc', 'ab', 'c']))

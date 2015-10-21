@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {string} s
     # @return {integer}
@@ -14,5 +15,6 @@ class Solution:
                 total += val
             preVal = val
         return total
+
 
 print(Solution().romanToInt("MCXXXIV"))

@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer} x
     # @return {boolean}
@@ -12,5 +13,6 @@ class Solution:
                 return False
             if i >= len(s) / 2:
                 return True
+
 
 print(Solution().isPalindrome(2083993802))

@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer} num
     # @return {string}
@@ -17,5 +18,6 @@ class Solution:
             elif s[i] == '9':
                 result += (roman[1][i] + roman[1][i - 1])
         return str(result)
+
 
 print(Solution().intToRoman(123))

@@ -1,5 +1,6 @@
 __author__ = 'zyt'
 
+
 class Solution:
     # @param {integer[]} nums
     # @param {integer} val
@@ -9,5 +10,6 @@ class Solution:
         nums[:] = [x for x in nums if x != val]
         # nums = [x for x in nums if x != val]
         return nums
+
 
 print(Solution().removeElement([4, 5, 4, 4, 4], 4))

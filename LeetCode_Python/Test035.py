@@ -18,4 +18,4 @@ class Solution:
         return low
 
 
-print(Solution().searchInsert([1,3,5,6],0))
+print(Solution().searchInsert([1, 3, 5, 6], 0))
