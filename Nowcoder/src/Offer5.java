@@ -13,6 +13,7 @@ public class Offer5 {
 
     public int pop() {
         if (stack2.isEmpty()) {
+            // add one line
             while (!stack1.isEmpty()) {
                 stack2.push(stack1.pop());
             }
