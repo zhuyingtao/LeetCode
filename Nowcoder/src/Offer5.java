@@ -17,6 +17,7 @@ public class Offer5 {
             while (!stack1.isEmpty()) {
                 stack2.push(stack1.pop());
             }
+            // add another line
         }
         return stack2.pop();
     }
