@@ -1,5 +1,4 @@
-.idea
-Test
-bin
+.idea/
+bin/
 
 *.iml
