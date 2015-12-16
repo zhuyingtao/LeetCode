@@ -27,5 +27,4 @@ public class Huawei3 {
             System.out.println(huawei3.mod(a, b));
         }
     }
-
 }
