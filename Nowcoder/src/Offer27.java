@@ -5,6 +5,7 @@ import java.util.ArrayList;
  */
 public class Offer27 {
     public ArrayList<String> Permutation(String str) {
+        // signing
         return new ArrayList<>();
     }
 }
