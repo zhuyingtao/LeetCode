@@ -5,6 +5,7 @@ import java.util.Arrays;
  */
 public class Offer32 {
 
+    // one more day....
     public int compare(String n, String m) {
         String nm = n + m;
         String mn = m + n;
