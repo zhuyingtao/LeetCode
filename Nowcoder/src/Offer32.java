@@ -27,4 +27,9 @@ public class Offer32 {
         }
         return str;
     }
+
+    public static void main(String[] args) {
+        double a=(10+5)/2;
+        System.out.println(a);
+    }
 }

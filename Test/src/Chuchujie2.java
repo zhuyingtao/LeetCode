@@ -7,16 +7,6 @@ import java.util.Scanner;
  */
 public class Chuchujie2 {
 
-    static class Node {
-        int dst;
-        int value;
-
-        public Node(int dst, int value) {
-            this.value = value;
-            this.dst = dst;
-        }
-    }
-
     public static int minSpanningTree(List<Node>[] matrix) {
         int n = matrix.length;
         // initialize
@@ -67,5 +57,15 @@ public class Chuchujie2 {
             System.out.println(minSpanningTree(costs));
         }
         scanner.close();
+    }
+
+    static class Node {
+        int dst;
+        int value;
+
+        public Node(int dst, int value) {
+            this.value = value;
+            this.dst = dst;
+        }
     }
 }
